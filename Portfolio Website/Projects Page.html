@@ -1,71 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <title>Bootstrap document</title>
   </head>
   <body>
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="https://cassburrows.github.io/">Cassandra Burrows</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://cassburrows.github.io/">About</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="navbar-brand"
+                href="https://cassburrows.github.io/Portfolio Website/Projects Page.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="navbar-brand"
+                href="https://cassburrows.github.io/Portfolio Website/Contact Page.html"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="https://cassburrows.github.io/Portfolio Website/Projects Page.html">Projects</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </nav>
-        <!--Navbar End-->
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar End-->
 
-        <!--Cards for Projects-->
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="https://cdn.jsdelivr.net/gh/CassBurrows/Pacman-Project@f277860a5aeeec124d0a7b983bc3b34220a4f82b/images/PacMan1.png" class="card-img-top" height='500rem' alt="Image of Pacman">
-                <div class="card-body">
-                  <h5 class="card-title" >Pacman Project</h5>
-                  <a href="https://github.com/CassBurrows/Pacman-Project" class="card-link">Check it out!</a>
-                  <p class="card-text">This project allows you to start a game and add multiple Pacmen. The Pacmen move around the screen at random speeds and in a random direction.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="https://cdn.jsdelivr.net/gh/CassBurrows/Eye-Exercise@947b259f8f13c1308563a84d5002ade551b81710/eye%20img.PNG" class="card-img-top" height='500rem' alt="Image of an Eye">
-                <div class="card-body">
-                  <h5 class="card-title">Moving Eyes Project</h5>
-                  <a href="https://github.com/CassBurrows/Eye-Exercise" class="card-link">See for yourself!</a>
-                  <p class="card-text">Moving Eyes creates a second eye on the page, and makes it so both eyes follow your cursor around the screen.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="https://cdn.jsdelivr.net/gh/CassBurrows/Real-Time-Bus-Tracker@821be0a39c4d0cc270befb30435b71bbcd61f8c7/bus%20tracker.PNG" class="card-img-top" height='500rem' alt="Image of a Map">
-                <div class="card-body">
-                  <h5 class="card-title">Bus Tracker Project</h5>
-                  <a href="https://github.com/CassBurrows/Real-Time-Bus-Tracker" class="card-link">Try it out!</a>
-                  <p class="card-text">Using Bus Tracker, we are able to track which stops the bus going from MIT to Harvard stops at.</p>
-                </div>
-              </div>
-            </div>
+    <!--Cards for Projects-->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://cdn.jsdelivr.net/gh/CassBurrows/Pacman-Project@f277860a5aeeec124d0a7b983bc3b34220a4f82b/images/PacMan1.png"
+            class="card-img-top"
+            height="500rem"
+            alt="Image of Pacman"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Pacman Project</h5>
+            <a
+              href="https://github.com/CassBurrows/Pacman-Project"
+              class="card-link"
+              >Check it out!</a
+            >
+            <p class="card-text">
+              This project allows you to start a game and add multiple Pacmen.
+              The Pacmen move around the screen at random speeds and in a random
+              direction.
+            </p>
           </div>
-          <!--Cards End-->
-            <h1>please work bootstrap please im gonna cry</h1>
-      
-              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://cdn.jsdelivr.net/gh/CassBurrows/Eye-Exercise@947b259f8f13c1308563a84d5002ade551b81710/eye%20img.PNG"
+            class="card-img-top"
+            height="500rem"
+            alt="Image of an Eye"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Moving Eyes Project</h5>
+            <a
+              href="https://github.com/CassBurrows/Eye-Exercise"
+              class="card-link"
+              >See for yourself!</a
+            >
+            <p class="card-text">
+              Moving Eyes creates a second eye on the page, and makes it so both
+              eyes follow your cursor around the screen.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://cdn.jsdelivr.net/gh/CassBurrows/Real-Time-Bus-Tracker@821be0a39c4d0cc270befb30435b71bbcd61f8c7/bus%20tracker.PNG"
+            class="card-img-top"
+            height="500rem"
+            alt="Image of a Map"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Bus Tracker Project</h5>
+            <a
+              href="https://github.com/CassBurrows/Real-Time-Bus-Tracker"
+              class="card-link"
+              >Try it out!</a
+            >
+            <p class="card-text">
+              Using Bus Tracker, we are able to track which stops the bus going
+              from MIT to Harvard stops at.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Cards End-->
+    <h1>please work bootstrap please im gonna cry</h1>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  </html>
+</html>
