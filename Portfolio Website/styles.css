@@ -1,0 +1,14 @@
+
+body {
+    background-color: #212227;
+ }
+ 
+ .navbar {
+    white-space: 40px;
+ }
+
+ .card {
+    background-color:#e3f2fd;
+    color:  #000000;
+    margin-top: 30px;
+ }
